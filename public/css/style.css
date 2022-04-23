@@ -128,7 +128,13 @@ body {
     display: none;
 }
 
-@media (min-width: 30em) and (max-width: 80em) {
+ /* @media (min-width: 720px) and (max-width: 1080px) {
+    .big-sidebar {
+        display: none;
+    }
+}  */
+
+@media (max-width: 768px) { 
     .big-sidebar {
         display: none;
     }
