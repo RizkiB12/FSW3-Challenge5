@@ -1,16 +1,24 @@
-const express = require('express');
-const route = require('./routes/index');
+const express = require('express')
+const expressLayouts = require('express-ejs-layouts');
+const bodyParser = require('body-parser');
+const fs = require('fs');
+
+// create express app
 const app = express();
-const path = require('path');
-const publicPath = path.join(__dirname, 'public');
-const PORT = process.env.PORT || 3000;
 
+//middleware
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(expressLayouts);
+app.use(express.static('public'));
+
+//route
+const routes = require('./routes/routes');
+app.use('/', routes);
+app.set('views', './views');
 app.set('view engine', 'ejs');
-app.use(express.static(publicPath));
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
-app.use(route);
 
-app.listen(PORT, () => {
-  console.log(`Example app listening on port ${PORT}!`);
+//start server
+app.listen(3000, () => {
+    console.log('Server started on port 3000');
 });
