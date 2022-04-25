@@ -1,4 +1,20 @@
-<div class="row m-0 p-0">
+<div class="d-flex justify-content-between">
+    <h3>
+       <b>List Cars</b>
+    </h3>
+    <button type="button" class="btn btn-primary">
+        <a href="addNewCar.ejs"></a>+ Add New Car
+    </button>
+</div>
+
+<div class="mt-3">
+    <button class="btn btn-outline-primary p"><a href=""></a>All</button>
+    <button class="btn btn-outline-primary"><a href=""></a>Small</button>
+    <button class="btn btn-outline-primary"><a href=""></a>Medium</button>
+    <button class="btn btn-outline-primary"><a href=""></a>Large</button>
+</div>
+
+<div class="row m-0 p-0 mt-3">
     <% arrayCars.forEach(car => { %>
     <div class="col-md-4 p-2">
         <div class="card">

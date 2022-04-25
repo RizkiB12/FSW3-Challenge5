@@ -1,8 +1,44 @@
 {
+  "275609": {
+    "nama": "Alphard",
+    "rent": 1000000,
+    "ukuran": "Large",
+    "img": "https://toyotamedandealer.com/wp-content/uploads/2021/02/new-kijang-inova-medan.png"
+  },
   "685625": {
     "nama": "Innova",
     "rent": 430000,
     "ukuran": "Small",
+    "img": "https://toyotamedandealer.com/wp-content/uploads/2021/02/new-kijang-inova-medan.png"
+  },
+  "707654": {
+    "nama": "Rush",
+    "rent": 600000,
+    "ukuran": "Medium",
+    "img": "https://toyotamedandealer.com/wp-content/uploads/2021/02/new-kijang-inova-medan.png"
+  },
+  "746169": {
+    "nama": "Xenia",
+    "rent": 200000,
+    "ukuran": "Small",
+    "img": "https://toyotamedandealer.com/wp-content/uploads/2021/02/new-kijang-inova-medan.png"
+  },
+  "767815": {
+    "nama": "Avanza",
+    "rent": 300000,
+    "ukuran": "Small",
+    "img": "https://toyotamedandealer.com/wp-content/uploads/2021/02/new-kijang-inova-medan.png"
+  },
+  "876151": {
+    "nama": "Panther",
+    "rent": 550000,
+    "ukuran": "Large",
+    "img": "https://toyotamedandealer.com/wp-content/uploads/2021/02/new-kijang-inova-medan.png"
+  },
+  "977364": {
+    "nama": "Hilux",
+    "rent": 450000,
+    "ukuran": "Medium",
     "img": "https://toyotamedandealer.com/wp-content/uploads/2021/02/new-kijang-inova-medan.png"
   }
 }
