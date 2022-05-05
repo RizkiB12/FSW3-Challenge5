@@ -2,6 +2,8 @@ const express = require('express')
 const expressLayouts = require('express-ejs-layouts');
 const bodyParser = require('body-parser');
 const fs = require('fs');
+const methodOverride = require("method-override");
+
 
 // create express app
 const app = express();
@@ -11,6 +13,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressLayouts);
 app.use(express.static('public'));
+app.use(methodOverride("_method"));
+
 
 //route
 const routes = require('./routes/routes');
